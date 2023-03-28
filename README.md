@@ -1,2 +1,7 @@
 # handwritten-digit-recognition
 手写数字识别的python代码
+手写数字识别的python代码
+使用pytorch框架，有GPU优先选用GPU，没有GPU使用CPU训练，使用mnist数据集作为训练集和测试集
+model30_Adam.pth是使用Adam优化器训练30轮得到的模型，模型准确率在百分之九十八，model50_98.pth是使用随机梯度下降训练50轮的模型，模型准确率百分之九十八
+模型结构选自模型结构选用.jpg
+train.py为训练代码，test.py为测试代码
